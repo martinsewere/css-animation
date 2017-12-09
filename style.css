@@ -1,0 +1,31 @@
+body {
+    background-color: beige;
+  }
+  
+h5 {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+  
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+    25% {
+      font-size: 200%;
+      margin-left: 25%;
+      width: 150%;
+    }
+    75% {
+      font-size: 400%;
+      margin-left: 75%;
+      width: 250%;
+    }
+    to {
+      margin-right: 50%;
+      width: 100%;
+    }
+}
